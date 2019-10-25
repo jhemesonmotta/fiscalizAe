@@ -1,55 +1,26 @@
-export let single = [
+export let dataset = [
     {
-      'name': 'Germany',
+      'name': 'Governo Federal',
       'value': 8940000
     },
     {
-      'name': 'USA',
+      'name': 'GDF',
       'value': 5000000
     },
     {
-      'name': 'France',
-      'value': 7200000
-    }
-  ];
-  export let multi = [
-    {
-      'name': 'Germany',
-      'series': [
-        {
-          'name': '2010',
-          'value': 7300000
-        },
-        {
-          'name': '2011',
-          'value': 8940000
-        }
-      ]
+      'name': 'Dado Aleatório',
+      'value': 1233320
     },
     {
-      'name': 'USA',
-      'series': [
-        {
-          'name': '2010',
-          'value': 7870000
-        },
-        {
-          'name': '2011',
-          'value': 8270000
-        }
-      ]
+      'name': 'Governo Maranhão',
+      'value': 5124562
     },
     {
-      'name': 'France',
-      'series': [
-        {
-          'name': '2010',
-          'value': 5000002
-        },
-        {
-          'name': '2011',
-          'value': 5800000
-        }
-      ]
+      'name': 'UnB',
+      'value': 2233320
+    },
+    {
+      'name': 'Dado Aleatório 2',
+      'value': 32
     }
   ];
