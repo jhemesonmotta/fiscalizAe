@@ -1,4 +1,12 @@
+.btn-documentacao{
+    background-color: #E3B35C;
+    width: 100%;
+    color: #1F283D;
+}
 
+.btn-documentacao:hover{
+    background-color: #C1913A;
+}
 
 .logo-side, .sidebar-wrapper{
     width: 80%;
