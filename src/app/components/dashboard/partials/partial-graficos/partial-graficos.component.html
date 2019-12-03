@@ -46,7 +46,6 @@
     </div>
 </div>
 
-
 <div class="row">
     <div class="col-xl-12 col-lg-12">
       <div class="card card-chart">
@@ -71,4 +70,47 @@
         </div>
       </div>
     </div>
+</div>
+
+<div class="row">
+  <div class="col-xl-6 col-lg-12">
+      <div class="card card-chart">
+        <div class="card-header card-header-chartings">
+          
+            <ngx-charts-bar-vertical
+              [results]="medianaPrevisao"
+              [legend]="false"
+              [showXAxisLabel]="false"
+              [showYAxisLabel]="false"
+              (select)="onSelect($event)">
+            </ngx-charts-bar-vertical>
+
+          </div>
+        <div class="card-body">
+          <h4 class="card-title">Predição da Mediana das Compras Governamentais sem Licitação (Mensal)</h4>
+          <p class="card-category">
+            Valor mediano predito para todas as compras governamentais realizadas sem licitação entre 2000-2020.
+          </p>
+        </div>
+      </div>
+  </div>
+  <div class="col-xl-6 col-lg-12">
+    <div class="card card-chart">
+      <div class="card-header card-header-chartings">
+          <ngx-charts-bar-vertical
+            [results]="somaPrevisao"
+            [legend]="false"
+            [showXAxisLabel]="false"
+            [showYAxisLabel]="false"
+            (select)="onSelect($event)">
+          </ngx-charts-bar-vertical>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">Predição da Soma das Compras Governamentais sem Licitação (Mensal)</h4>
+          <p class="card-category">
+            Valor somatório predito para todas as compras governamentais realizadas sem licitação entre 2000-2020.
+          </p>
+      </div>
+    </div>
+  </div>
 </div>

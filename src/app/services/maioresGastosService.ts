@@ -1,6 +1,4 @@
 import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs/Observable";
 import { maiores_gastos } from './maioresGastosData';
 import { CompraSemLicitacao } from "../models/compraSemLicitacao";
 
